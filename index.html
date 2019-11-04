@@ -1,0 +1,65 @@
+<!-- Ejercicio de práctica del módulo 2 CSS - Práctica P6a
+
+Como ya sabemos usar las tablas HTML, vamos a crear una lista ordenada de la famosa escala de Mosh. Curiosamente al consultar la wikipedia, para ver el orden de los elementos, nos encontramos que ellos han representado la tabla precisamente con colores degradados. Es decir, cuanto menos duro es el material más claro es el color de fondo con el que representan la celda, desde blanco a negro (para el diamante).
+Para ello, vamos a representar las celdas correspondientes a la columna de la posición dentro de la escala, con el fondo de celda creciendo en intensidad desde el color blanco puro al negro puro.
+
+Además de todo esto vamos a introducir una miniatura del mineral en cuestión en la segunda columna.
+
+Juega también con las reglas que cambian el tipo de letra, mirando cómo se hace en éste enlace -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Escala de Mohs</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<table class="tabla">
+			<tr id="cabecera">
+				<th>Dureza</th>
+				<th>Mineral</th>
+			</tr>
+			<tr>
+				<td id="primero">1</td>
+				<td><img src="images/talco.jpg" width="300" height="200"></td>
+			</tr>
+			<tr>
+				<td id="segundo">2</td>
+				<td><img src="images/yeso.jpg" width="300" height="200"></td>
+			</tr>
+			<tr>
+				<td id="tercero">3</td>
+				<td><img src="images/calcita.jpg" width="300" height="200"></td>
+			</tr>
+			<tr>
+				<td id="cuarto">4</td>
+				<td><img src="images/fluorita.jpg" width="300" height="200"></td>
+			</tr>
+			<tr>
+				<td id="quinto">5</td>
+				<td><img src="images/apatito.jpg" width="300" height="200"></td>
+			</tr>
+			<tr>
+				<td id="sexto">6</td>
+				<td><img src="images/ortosa.jpg" width="300" height="200"></td>
+			</tr>
+			<tr>
+				<td id="septimo">7</td>
+				<td><img src="images/cuarzo.jpg" width="300" height="200"></td>
+			</tr>
+			<tr>
+				<td id="octavo">8</td>
+				<td><img src="images/topacio.jpg" width="300" height="200"></td>
+			</tr>
+			<tr>
+				<td id="noveno">9</td>
+				<td><img src="images/corindon.jpg" width="300" height="200"></td>
+			</tr>
+			<tr>
+				<td id="decimo">10</td>
+				<td><img src="images/diamante.jpg" width="300" height="200"></td>
+			</tr>
+		</table>
+	</body>
+</html>

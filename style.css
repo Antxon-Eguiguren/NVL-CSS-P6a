@@ -1,0 +1,63 @@
+.tabla, tr, th, td {
+	text-align: center;
+	border: 1px solid black;
+}
+
+#cabecera {
+	background-color: black;
+	color: white;
+}
+
+#primero {
+	background-color: white;
+	font-weight: bold; 
+}
+
+#segundo {
+	background-color: #D5DBDB;
+	font-weight: bold; 
+}
+
+#tercero {
+	background-color: #BFC9CA;
+	font-weight: bold; 
+}
+
+#cuarto {
+	background-color: #AAB7B8;
+	font-weight: bold; 
+}
+
+#quinto {
+	background-color: #95A5A6;
+	font-weight: bold;
+}
+
+#sexto {
+	background-color: #839192;
+	font-weight: bold; 
+}
+
+#septimo {
+	background-color: #717D7E;
+	font-weight: bold; 
+	color: white;
+}
+
+#octavo {
+	background-color: #5F6A6A;
+	font-weight: bold; 
+	color: white;
+}
+
+#noveno {
+	background-color: #4D5656;
+	font-weight: bold; 
+	color: white;
+}
+
+#decimo {
+	background-color: black;
+	font-weight: bold; 
+	color: white;
+}
